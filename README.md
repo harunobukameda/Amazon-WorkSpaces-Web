@@ -1,1 +1,24 @@
 # Amazon-WorkSpaces-Web
+
+Amazon WorkSpaces:
+AWSが提供するVDIのサービスです。WindowsやLinuxのデスクトップ環境がサービスとして提供されます。利用には専用クライアントが必要です。
+
+Amazon WorkSpaces Web Access:
+ブラウザでアクセス可能なAmazon WorkSpaces Web Accessも存在しています。
+一部のOS環境では制限がありますのでご注意ください。
+https://docs.aws.amazon.com/ja_jp/workspaces/latest/userguide/amazon-workspaces-web-access.html
+
+Amazon WorkSpaces Web:
+指定したVPCの特定プライベートサブネットの中でChromeブラウザを起動させることでよりセキュアなリモートワーク環境が構築可能となるものです。Amazon WorkSpaces及びAmazon WorkSpaces Web Accessはフルのデスクトップ環境が提供されるのに対して、Amazon WorkSpaces Webはブラウザのみが機能として提供されます。
+
+また、Amazon WorkSpacesはDirectoryが必須ですがAmazon WorkSpaces Webは、SAMLのIdpが必須となり、Directoryは不要です。このワークショップではAWS IAM Identity Center (旧ＳＳＯ)を用いますが、任意のSAML Idpとの連携が可能です。
+
+ローカルクライアントへのファイルのダウンロードやクリップボードを介したデータのやり取りなどは管理者が管理することが可能です。
+日本語入力にも対応しています。
+
+Amazon AppStream 2.0:
+Amazon WorkSpaces Webと近しい動きをするものに、Amazon AppStream2.0があります。前者はVPC Private Subnetで動作するChromeが提供されますが後者は任意のアプリケーション実行時の画面がリモート環境に転送される、という違いがあります。
+
+Amazon WorkLink:
+従業員が社内のウェブサイトやウェブアプリに自分の携帯電話を使って安全にクリック 1 つでアクセスできるようにする完全マネージド型サービスです。Amazon WorkLink を使用すれば、従業員はわざわざ社内ネットワークに接続しなくても、一般のウェブサイトにアクセスするような手軽さで社内のウェブコンテンツにアクセスできます。
+WorkSpaces WebはローカルPC経由でVPCで動作するブラウザを操作するのが対象ですが、WorkLinkはスマートフォンが対象です。
