@@ -21,4 +21,4 @@ Amazon WorkSpaces Webと近しい動きをするものに、Amazon AppStream2.0�
 
 Amazon WorkLink:
 従業員が社内のウェブサイトやウェブアプリに自分の携帯電話を使って安全にクリック 1 つでアクセスできるようにする完全マネージド型サービスです。Amazon WorkLink を使用すれば、従業員はわざわざ社内ネットワークに接続しなくても、一般のウェブサイトにアクセスするような手軽さで社内のウェブコンテンツにアクセスできます。
-WorkSpaces WebはローカルPC経由でVPCで動作するブラウザを操作するのが対象ですが、WorkLinkはスマートフォンが対象です。
+WorkLinkはWorkSpaes Webに統合され、新規起動はおこなえなくなっています。
